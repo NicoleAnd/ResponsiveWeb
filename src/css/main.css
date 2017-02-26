@@ -301,8 +301,13 @@ header .main ul li a:active {
 }
 /*滚动广告*/
 .ad {
-	display: none;
+	/*display: none;*/
+
 }
+#owl-demo img{
+	width: 100%;
+}
+
 /*平台特点*/
 .feature {
 	width: 90%;

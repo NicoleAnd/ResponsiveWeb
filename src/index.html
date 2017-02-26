@@ -6,6 +6,8 @@
 	<title>Document</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -38,7 +40,7 @@
     </nav>
 </header>
 <div class="container">
-    <section class="transaction">
+    <section class="transaction clearfix">
         <div class="trans-content">
             <div class="trans-data">
                 <span>平台累计成交金额</span>
@@ -56,17 +58,19 @@
         </div>
     </section>
 
-    <section class="ad">
-        <div class="item">
-            <img src="img/ad001.png">
-        </div>
-        <div class="item">
-            <img src="img/ad002.png">
-        </div>
-        <div class="item">
-            <img src="img/ad003.png">
-        </div>
-    </section>
+    <div class="ad">
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/ad001.png">
+            </div>
+            <div class="item">
+                <img src="img/ad002.png">
+            </div>
+            <div class="item">
+                <img src="img/ad003.png">
+            </div>
+        </div>  
+    </div>
 
     <section class="feature">
         <div class="item">
@@ -256,6 +260,8 @@
     <p>北京互联网金融公司 版权所有 © 2016-2017</p>
 </footer>
 
-
+<script src="js/vendor/OwlCarousel/assets/js/jquery-1.9.1.min.js"></script>
+<script src="js/vendor/OwlCarousel/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
